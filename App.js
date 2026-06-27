@@ -2,12 +2,10 @@ import { Component } from 'react';
 import { 
   View, 
   Text, 
-  StyleSheet, 
-  TextInput, 
-  Button, 
-  Alert,
+  StyleSheet,
   Image,
   TouchableOpacity,
+  Alert
 } from 'react-native';
 
 export default class App extends Component {
@@ -15,50 +13,71 @@ export default class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      textoFrase: 'A sua frase do dia irá aparecer aqui',
-      img: require('./src/biscoito.png'),
+      numero: 0,
+      botao: 'Começar',
+      ultimo: null
     };
-  
-    this.quebraBiscoito = this.quebraBiscoito.bind(this)
 
-    this.frases = [
-      'Siga os bons e aprenda com eles.', 
-      'O bom-senso vale mais do que muito conhecimento.', 
-      'O riso é a menor distância entre duas pessoas.', 
-      'Deixe de lado as preocupações e seja feliz.',
-      'Realize o óbvio, pense no improvável e conquiste o impossível.',
-      'Acredite em milagres, mas não dependa deles.',
-      'A maior barreira para o sucesso é o medo do fracasso.'
-    ]
+    this.timer = null
+
+    this.comecar = this.comecar.bind(this)
+    this.limpar = this.limpar.bind(this)
 
   }
 
-  quebraBiscoito(){
-    let numeroAleatorio = Math.floor(Math.random() * this.frases.length );
+  comecar(){
+    if(this.timer != null){
+      clearInterval(this.timer)
+      this.timer = null
 
-    this.setState({ 
-      textoFrase: ' " ' + this.frases[numeroAleatorio] + ' " ',
-      img: require('./src/biscoitoAberto.png'),
-     })
+      this.setState({botao: 'Começar'})
+    } else {
+      this.timer = setInterval( () => {
+        this.setState({numero: this.state.numero + 0.1})
+    }, 100)
 
+      this.setState({botao: 'Pausar'})
+    } 
+  }
+
+  limpar(){
+    if(this.timer != null){
+      clearInterval(this.timer)
+      this.timer = null
+    }
+    this.setState({
+      ultimo: this.state.numero,
+      numero: 0,
+      botao: 'Começar'
+    })
   }
 
   render(){
     return (
     <View style={ styles.container } >
       
-      <Image 
-        source={this.state.img}
-        style={ styles.img }
+      <Image  
+        source={require('./src/cronometro.png')}
+        style={ styles.cronometro }
       />
 
-      <Text style={ styles.textoFrase }>{this.state.textoFrase}</Text>
+      <Text style={ styles.timer }> {this.state.numero.toFixed(1)} </Text>
 
-      <TouchableOpacity style={ styles.botao } onPress={this.quebraBiscoito} >
-        <View style={ styles.areaBotao } >
-          <Text style={ styles.textoBotao } >Quebrar Biscoito</Text>
-        </View>
-      </TouchableOpacity>
+      <View style={ styles.areaBotao }>
+
+        <TouchableOpacity style={ styles.botao } onPress={this.comecar} >
+          <Text style={styles.textoBotao}> {this.state.botao} </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={ styles.botao } onPress={this.limpar} >
+          <Text style={styles.textoBotao}>Limpar</Text>
+        </TouchableOpacity>
+
+      </View>
+
+      <View style={styles.areaUltimo} >
+        <Text style={styles.textoUltimo} >{this.state.ultimo > 0 ? 'Ultimo tempo: ' + this.state.ultimo.toFixed(1) + "s" : ""} </Text>
+      </View>
 
     </View>
   );
@@ -69,39 +88,41 @@ const styles = StyleSheet.create({
   container:{
     flex: 1,
     paddingTop: 35,
-    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#d9d9d9',
+    justifyContent: 'center',
+    backgroundColor: '#00aeef',
   },
-  img:{
-    width: 250,
-    height: 250,
-  },
-  textoFrase:{
-    fontSize: 20,
-    backgroundColor: '#4b3bfe',
-    color: '#d9d9d9',
-    padding: 5,
-    margin: 30,
-    fontStyle: 'italic',
-    textAlign: 'center',
-  },
-  botao:{
-    width: 230,
-    height: 50,
-    backgroundColor: '#4b3bfe',
-    borderRadius: 25,
+  timer:{
+    marginTop: -160,
+    color: '#fefefe',
+    fontSize: 65,
+    fontWeight: 'bold',
   },
   areaBotao:{
-    flex: 1,
     flexDirection: 'row',
+    marginTop: 70,
+    height: 70
+  },
+  botao:{
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#fefefe',
+    margin: 20,
+    height: 66,
+    borderRadius: 12
   },
   textoBotao:{
-    fontSize: 18,
+    color: '#00aeef',
     fontWeight: 'bold',
-    color: '#d9d9d9'
-  }
-
+    fontSize: 25,
+  },
+  areaUltimo:{
+    marginTop: 40,
+  },
+  textoUltimo:{
+    fontSize: 25,
+    fontStyle: 'italic',
+    color: '#fefefe'
+  },
 })
