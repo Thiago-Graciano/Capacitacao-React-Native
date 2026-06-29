@@ -13,8 +13,52 @@ export default class Lista extends Component {
         super(props);
         this.state = {
             feed: this.props.data,
-            seguindo: this.props.data.seguindo
+            seguindo: this.props.data.seguindo,
         }
+
+        this.mostraLikes = this.mostraLikes.bind(this)
+        this.like = this.like.bind(this)
+        this.carregaIcone = this.carregaIcone.bind(this)
+    }
+
+    carregaIcone(likeada){
+        return likeada ? require('../img/likeada.png') : require('../img/like.png')
+    } 
+
+    like() {
+        let feed = this.state.feed
+
+        if (feed.likeada === true) {
+            this.setState({
+                feed: {
+                    ...feed,
+                    likeada: false,
+                    likers: feed.likers - 1
+                }
+            })
+        } else {
+            this.setState({
+                feed: {
+                    ...feed,
+                    likeada: true,
+                    likers: feed.likers + 1
+                }
+            })
+        }
+    }
+
+    mostraLikes(likers) {
+        let feed = this.state.feed
+
+        if (feed.likers <= 0) {
+            return
+        }
+
+        return (
+            <Text style={styles.likes} >
+                {feed.likers} {feed.likers > 1 ? 'curtidas' : 'curtida'}
+            </Text>
+        )
     }
 
     alternarSeguindo = () => {
@@ -50,10 +94,12 @@ export default class Lista extends Component {
                     source={{ uri: this.state.feed.imgPublicacao }}
                 />
 
-                <View style={styles.areaBtn} >
-                    <TouchableOpacity style={styles.iconeLike} >
-                        <Image style={styles.iconeLike}
-                            source={require('../img/like.png')}
+                <View style={styles.areaBtn}>
+                    <TouchableOpacity onPress={this.like}
+                        style={styles.iconeLike} >
+                        <Image
+                            style={styles.iconeLike}
+                            source={this.carregaIcone(this.state.feed.likeada)}
                         />
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.btnSend} >
@@ -62,6 +108,8 @@ export default class Lista extends Component {
                         />
                     </TouchableOpacity>
                 </View>
+
+                {this.mostraLikes(this.state.feed.likers)}
 
                 <View style={styles.viewRodape}>
                     <Text style={styles.nomeRodape} >
@@ -124,6 +172,7 @@ const styles = StyleSheet.create({
     viewRodape: {
         flexDirection: 'row',
         alignItems: 'center',
+        marginBottom: 25,
     },
     descRodape: {
         padding: 5,
@@ -134,6 +183,10 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         color: '#111111',
-        paddingLeft: 5
+        paddingLeft: 5,
+    },
+    likes: {
+        fontWeight: 'bold',
+        marginLeft: 8,
     }
 })
