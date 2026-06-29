@@ -2165,3 +2165,86 @@
 {"_e":"env:load","_t":1782732059476,"mode":"development","files":[],"env":{}}
 {"_e":"devserver:start","_t":1782732062071,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
 {"_e":"metro:config","_t":1782732067037,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1782732085217,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782732160687,"id":"1","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782732160689,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782732160719,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782732160830,"id":"1","progress":0.04000000000000001,"total":5,"current":2}
+{"_e":"metro:bundling:progress","_t":1782732160931,"id":"1","progress":0.04000000000000001,"total":105,"current":4}
+{"_e":"metro:bundling:progress","_t":1782732161035,"id":"1","progress":0.04000000000000001,"total":139,"current":24}
+{"_e":"metro:bundling:progress","_t":1782732161140,"id":"1","progress":0.06709972419799681,"total":166,"current":43}
+{"_e":"metro:bundling:progress","_t":1782732161240,"id":"1","progress":0.12944766383919823,"total":189,"current":68}
+{"_e":"metro:bundling:progress","_t":1782732161341,"id":"1","progress":0.16612385166550617,"total":211,"current":86}
+{"_e":"metro:bundling:progress","_t":1782732161453,"id":"1","progress":0.22094332009598847,"total":217,"current":102}
+{"_e":"metro:bundling:progress","_t":1782732161554,"id":"1","progress":0.25222716049382715,"total":225,"current":113}
+{"_e":"metro:bundling:progress","_t":1782732161671,"id":"1","progress":0.26255037224233313,"total":242,"current":124}
+{"_e":"metro:bundling:progress","_t":1782732161773,"id":"1","progress":0.27040000000000003,"total":275,"current":143}
+{"_e":"metro:bundling:progress","_t":1782732161873,"id":"1","progress":0.3237878221043204,"total":297,"current":169}
+{"_e":"metro:bundling:progress","_t":1782732161976,"id":"1","progress":0.32751487879227753,"total":332,"current":190}
+{"_e":"metro:bundling:progress","_t":1782732162077,"id":"1","progress":0.35128929428102507,"total":356,"current":211}
+{"_e":"metro:bundling:progress","_t":1782732162177,"id":"1","progress":0.40214158239143366,"total":369,"current":234}
+{"_e":"metro:bundling:progress","_t":1782732162277,"id":"1","progress":0.42283685468066257,"total":386,"current":251}
+{"_e":"metro:bundling:progress","_t":1782732162376,"id":"1","progress":0.46156983858749495,"total":393,"current":267}
+{"_e":"metro:bundling:progress","_t":1782732162476,"id":"1","progress":0.5169427976285851,"total":395,"current":284}
+{"_e":"metro:bundling:progress","_t":1782732162579,"id":"1","progress":0.6723201970151728,"total":411,"current":337}
+{"_e":"metro:bundling:progress","_t":1782732162679,"id":"1","progress":0.7051177857649779,"total":418,"current":351}
+{"_e":"metro:bundling:progress","_t":1782732162779,"id":"1","progress":0.7635430839002267,"total":420,"current":367}
+{"_e":"metro:bundling:progress","_t":1782732162879,"id":"1","progress":0.7905797140098886,"total":433,"current":385}
+{"_e":"metro:bundling:progress","_t":1782732162979,"id":"1","progress":0.8573388203017833,"total":459,"current":425}
+{"_e":"metro:bundling:progress","_t":1782732163091,"id":"1","progress":0.902301681042185,"total":479,"current":455}
+{"_e":"metro:bundling:progress","_t":1782732163205,"id":"1","progress":0.902301681042185,"total":481,"current":455}
+{"_e":"metro:bundling:progress","_t":1782732163216,"id":"1","progress":0.902301681042185,"total":481,"current":456}
+{"_e":"metro:bundling:progress","_t":1782732163316,"id":"1","progress":0.975807347489601,"total":493,"current":487}
+{"_e":"metro:bundling:progress","_t":1782732163437,"id":"1","progress":0.975807347489601,"total":528,"current":502}
+{"_e":"metro:bundling:progress","_t":1782732163541,"id":"1","progress":0.975807347489601,"total":547,"current":514}
+{"_e":"metro:bundling:progress","_t":1782732163642,"id":"1","progress":0.975807347489601,"total":565,"current":536}
+{"_e":"metro:bundling:progress","_t":1782732163751,"id":"1","progress":0.975807347489601,"total":571,"current":542}
+{"_e":"metro:bundling:progress","_t":1782732164273,"id":"1","progress":0.975807347489601,"total":571,"current":543}
+{"_e":"metro:bundling:progress","_t":1782732164422,"id":"1","progress":0.975807347489601,"total":597,"current":571}
+{"_e":"metro:bundling:progress","_t":1782732164531,"id":"1","progress":0.975807347489601,"total":598,"current":571}
+{"_e":"metro:bundling:progress","_t":1782732164594,"id":"1","progress":0.975807347489601,"total":598,"current":572}
+{"_e":"metro:bundling:progress","_t":1782732164695,"id":"1","progress":0.975807347489601,"total":602,"current":587}
+{"_e":"metro:bundling:progress","_t":1782732164795,"id":"1","progress":0.975807347489601,"total":605,"current":592}
+{"_e":"metro:bundling:progress","_t":1782732164902,"id":"1","progress":0.975807347489601,"total":608,"current":599}
+{"_e":"metro:bundling:progress","_t":1782732165005,"id":"1","progress":0.9803926326773278,"total":609,"current":603}
+{"_e":"metro:bundling:progress","_t":1782732192224,"id":"1","progress":0.9836470458179308,"total":609,"current":604}
+{"_e":"metro:bundling:progress","_t":1782732192331,"id":"1","progress":0.9836470458179308,"total":617,"current":606}
+{"_e":"metro:bundling:progress","_t":1782732192375,"id":"1","progress":0.9836470458179308,"total":617,"current":607}
+{"_e":"metro:bundling:progress","_t":1782732192496,"id":"1","progress":0.9836470458179308,"total":617,"current":608}
+{"_e":"metro:bundling:progress","_t":1782732192707,"id":"1","progress":0.9836470458179308,"total":617,"current":609}
+{"_e":"metro:bundling:progress","_t":1782732192816,"id":"1","progress":0.9871590416994043,"total":621,"current":617}
+{"_e":"metro:bundling:progress","_t":1782732193297,"id":"1","progress":0.9903615020187169,"total":621,"current":618}
+{"_e":"metro:bundling:progress","_t":1782732193464,"id":"1","progress":0.9967871506704853,"total":622,"current":621}
+{"_e":"metro:bundling:progress","_t":1782732193520,"id":"1","progress":0.999,"total":622,"current":622}
+{"_e":"metro:bundling:done","_t":1782732195511,"id":"1","total":622,"ms":34821.8674}
+{"_e":"metro:client_log","_t":1782733226105,"level":"error","data":["[ReferenceError: Property 'Lista' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1782733290661,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Missing semicolon. (18:12)\n\n  16 |         }\n  17 |\n> 18 |     render(){\n     |             ^\n  19 |         return(\n  20 |             <View>\n  21 |                 <Text>Feed...</Text>","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1782733290860,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Missing semicolon. (18:12)\n\n  16 |         }\n  17 |\n> 18 |     render(){\n     |             ^\n  19 |         return(\n  20 |             <View>\n  21 |                 <Text>Feed...</Text>","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1782733339069,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Missing semicolon. (18:12)\n\n  16 |         }\n  17 |\n> 18 |     render(){\n     |             ^\n  19 |         return(\n  20 |             <View>\n  21 |                 <Text>Feed...</Text>","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1782733546757,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Missing semicolon. (18:12)\n\n  16 |         }\n  17 |\n> 18 |     render(){\n     |             ^\n  19 |         return(\n  20 |             <View>\n  21 |                 <Text>Feed...</Text>","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1782733546810,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Missing semicolon. (18:12)\n\n  16 |         }\n  17 |\n> 18 |     render(){\n     |             ^\n  19 |         return(\n  20 |             <View>\n  21 |                 <Text>Feed...</Text>","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782733584573,"id":"7","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782733584574,"id":"7","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782733584629,"id":"7","total":1,"ms":54.9786}
+{"_e":"metro:bundling:failed","_t":1782733701929,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: JSX attributes must only be assigned a non-empty expression. (23:31)\n\n  21 |                 <View style={styles.viewPerfil} >\n  22 |                     <Image\n> 23 |                         source={}\n     |                                ^\n  24 |                         style={styles.fotoPerfil}\n  25 |                     />\n  26 |                 </View>","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782733708624,"level":"error","data":["[ReferenceError: Property 'styles' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1782733721885,"level":"error","data":["[ReferenceError: Property 'styles' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1782733756568,"level":"error","data":["[ReferenceError: Property 'styles' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1782733852594,"level":"error","data":["[Error: The <Image> component cannot contain children. If you want to render content on top of the image, consider using the <ImageBackground> component or absolute positioning.]"]}
+{"_e":"metro:client_log","_t":1782733876798,"level":"error","data":["[Error: The <Image> component cannot contain children. If you want to render content on top of the image, consider using the <ImageBackground> component or absolute positioning.]"]}
+{"_e":"metro:bundling:started","_t":1782734352396,"id":"j","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782734352396,"id":"j","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782734352433,"id":"j","total":1,"ms":36.8604}
+{"_e":"metro:client_log","_t":1782734356237,"level":"error","data":["[Error: The <Image> component cannot contain children. If you want to render content on top of the image, consider using the <ImageBackground> component or absolute positioning.]"]}
+{"_e":"metro:bundling:failed","_t":1782734713094,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Unterminated string constant. (58:20)\n\n  56 |         flexDirection: 'row',\n  57 |         flex: 1,\n> 58 |         alignItems: 'center,\n     |                     ^\n  59 |         padding: 8,\n  60 |         '\n  61 |     },","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782734849754,"id":"n","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782734849754,"id":"n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782734849807,"id":"n","total":1,"ms":52.5003}
+{"_e":"metro:bundling:failed","_t":1782735482497,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\Lista\\index.js: Unexpected token, expected \"}\" (33:80)\n\n  31 |                     <TouchableOpacity >\n  32 |                         <Text style={styles.seguindoButton}>\n> 33 |                             {(this.state.feed.seguindo) ? \"Seguindo\" : \"Seguir\" if(this.state.feed.seguindo) { \"Seguindo\" } else { \"Seguir\" }}\n     |                                                                                 ^\n  34 |                         </Text>\n  35 |                     </TouchableOpacity>\n  36 |","importStack":null,"filename":"src\\Lista\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782736438738,"id":"q","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782736438739,"id":"q","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782736438811,"id":"q","total":1,"ms":73.0516}
+{"_e":"metro:bundling:started","_t":1782736818881,"id":"r","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782736818881,"id":"r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782736818882,"id":"r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782736818991,"id":"r","total":1,"ms":109.4463}
