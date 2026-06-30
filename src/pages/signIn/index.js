@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Plataform } from 'react-native';
+import { Platform } from 'react-native';
 
 import {
     Background,
@@ -21,7 +21,7 @@ export default function SignIn() {
     return (
         <Background>
             <Container
-                behavior={Plataform === 'ios' ? 'padding' : ''}
+                behavior={Platform.OS === 'ios' ? 'padding' : ''}
                 enabled
             >
                 <Logo
