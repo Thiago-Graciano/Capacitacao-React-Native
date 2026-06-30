@@ -22,7 +22,7 @@ export const AreaInput = styled.View`
 export const Input = styled.TextInput`
     background-color: #fefefe;
     width: 90%;
-    height: 45px;
+    height: 50px;
     font-size: 10px;
     border-radius: 8px;
     color: #121212;
@@ -31,7 +31,7 @@ export const Input = styled.TextInput`
 
 export const SubmitButton = styled.TouchableOpacity`
     width: 90%;
-    height: 45px;
+    height: 50px;
     border-radius: 8px;
     background-color: #3b3dbf;
     margin-top: 10px;

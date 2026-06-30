@@ -1,13 +1,49 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { Plataform } from 'react-native';
 
-export default class SignUp extends Component{
+import {
+    Background,
+    Container,
+    AreaInput,
+    Input,
+    SubmitButton,
+    SubmitText,
+} from '../signIn/styles'
 
-  render() {
-    return (
-      <View>
-        <Text>Tela Login</Text>
-      </View>
-    );
-  }
+export default class SignUp extends Component {
+
+    render() {
+        return (
+            <Background>
+                <Container
+                    behavior={Plataform === 'ios' ? 'padding' : ''}
+                    enabled
+                >
+
+                    <AreaInput>
+                        <Input
+                            placeholder='Digite seu Nome'
+                        />
+                    </AreaInput>
+
+                    <AreaInput>
+                        <Input
+                            placeholder='Digite seu E-mail'
+                        />
+                    </AreaInput>
+
+                    <AreaInput>
+                        <Input
+                            placeholder='Digite sua Senha'
+                        />
+                    </AreaInput>
+
+                    <SubmitButton>
+                        <SubmitText>Cadastar-se</SubmitText>
+                    </SubmitButton>
+
+                </Container>
+            </Background>
+        );
+    }
 }
