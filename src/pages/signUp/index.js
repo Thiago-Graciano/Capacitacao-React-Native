@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Plataform } from 'react-native';
+import React, { useContext } from 'react';
+import { Platform, Alert } from 'react-native';
 
 import {
     Background,
@@ -10,15 +10,22 @@ import {
     SubmitText,
 } from '../signIn/styles'
 
-export default class SignUp extends Component {
+import { AuthContext } from '../../contexts/auth';
 
-    render() {
-        return (
-            <Background>
-                <Container
-                    behavior={Plataform === 'ios' ? 'padding' : ''}
-                    enabled
-                >
+export default function SignUp() {
+
+    const { user } = useContext(AuthContext)
+
+    function handleSignUp(){
+        console.log(user.nome)
+    }
+
+    return (
+        <Background>
+            <Container
+                behavior={Platform.OS === 'ios' ? 'padding' : ''}
+                enabled
+            >
 
                     <AreaInput>
                         <Input
@@ -38,12 +45,11 @@ export default class SignUp extends Component {
                         />
                     </AreaInput>
 
-                    <SubmitButton>
+                    <SubmitButton onPress={handleSignUp} >
                         <SubmitText>Cadastar-se</SubmitText>
                     </SubmitButton>
 
-                </Container>
-            </Background>
-        );
-    }
+            </Container>
+        </Background>
+    );
 }

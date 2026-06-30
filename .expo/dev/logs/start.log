@@ -2915,3 +2915,11 @@
 {"_e":"metro:bundling:started","_t":1782786271696,"id":"w","platform":"android","environment":null,"entry":"index.js"}
 {"_e":"metro:bundling:progress","_t":1782786271696,"id":"w","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1782786271765,"id":"w","total":1,"ms":69.1362}
+{"_e":"metro:bundling:started","_t":1782787112959,"id":"x","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782787112959,"id":"x","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782787112993,"id":"x","total":1,"ms":33.812}
+{"_e":"metro:bundling:started","_t":1782787136866,"id":"y","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782787136866,"id":"y","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782787136904,"id":"y","total":1,"ms":37.7194}
+{"_e":"metro:bundling:failed","_t":1782788740222,"id":"v","message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signUp\\index.js: Unexpected token (13:28)\n\n  11 | } from '../signIn/styles'\n  12 |\n> 13 | import { AuthContext } from `../../contexts/auth`\n     |                             ^\n  14 |\n  15 | export default class SignUp extends Component {\n  16 |","importStack":null,"filename":"src\\pages\\signUp\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782788966581,"level":"error","data":["[TypeError: Cannot add new property 'updater']"]}
