@@ -2836,3 +2836,82 @@
 {"_e":"metro:bundling:progress","_t":1782782739411,"id":"9","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:progress","_t":1782782739413,"id":"9","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1782782739528,"id":"9","total":1,"ms":117.1548}
+{"_e":"root:init","_t":1782784436926,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782784436929,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782784436947,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782784438059,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782784440019,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1782784454983,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782784484402,"id":"1","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782784484403,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782784484412,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782784484512,"id":"1","progress":0.0014792899408284025,"total":104,"current":4}
+{"_e":"metro:bundling:progress","_t":1782784484611,"id":"1","progress":0.010412328196584757,"total":147,"current":15}
+{"_e":"metro:bundling:progress","_t":1782784484711,"id":"1","progress":0.11719827936044153,"total":222,"current":76}
+{"_e":"metro:bundling:progress","_t":1782784484811,"id":"1","progress":0.21624413622584632,"total":243,"current":113}
+{"_e":"metro:bundling:progress","_t":1782784484914,"id":"1","progress":0.27052880790575967,"total":323,"current":168}
+{"_e":"metro:bundling:progress","_t":1782784485017,"id":"1","progress":0.31118615393765564,"total":389,"current":217}
+{"_e":"metro:bundling:progress","_t":1782784485116,"id":"1","progress":0.32614384223175574,"total":422,"current":241}
+{"_e":"metro:bundling:progress","_t":1782784485216,"id":"1","progress":0.3681641628935006,"total":473,"current":287}
+{"_e":"metro:bundling:progress","_t":1782784485318,"id":"1","progress":0.44269638539277084,"total":508,"current":338}
+{"_e":"metro:bundling:progress","_t":1782784485417,"id":"1","progress":0.5141136771603741,"total":523,"current":375}
+{"_e":"metro:bundling:progress","_t":1782784485528,"id":"1","progress":0.6238925125576843,"total":533,"current":421}
+{"_e":"metro:bundling:progress","_t":1782784485628,"id":"1","progress":0.6882853223593964,"total":540,"current":448}
+{"_e":"metro:bundling:progress","_t":1782784485734,"id":"1","progress":0.7832895998721295,"total":548,"current":485}
+{"_e":"metro:bundling:progress","_t":1782784485834,"id":"1","progress":0.8261568330363359,"total":571,"current":519}
+{"_e":"metro:bundling:progress","_t":1782784485938,"id":"1","progress":0.8677050103208857,"total":584,"current":544}
+{"_e":"metro:bundling:progress","_t":1782784486039,"id":"1","progress":0.8902329996357655,"total":602,"current":568}
+{"_e":"metro:bundling:progress","_t":1782784486143,"id":"1","progress":0.9071781779091642,"total":610,"current":581}
+{"_e":"metro:bundling:progress","_t":1782784486246,"id":"1","progress":0.9936000164365549,"total":624,"current":622}
+{"_e":"metro:bundling:progress","_t":1782784486346,"id":"1","progress":0.9936000164365549,"total":672,"current":639}
+{"_e":"metro:bundling:progress","_t":1782784486452,"id":"1","progress":0.9936000164365549,"total":726,"current":699}
+{"_e":"metro:bundling:progress","_t":1782784486552,"id":"1","progress":0.9973386572009625,"total":751,"current":750}
+{"_e":"metro:bundling:progress","_t":1782784488318,"id":"1","progress":0.999,"total":751,"current":751}
+{"_e":"metro:bundling:progress","_t":1782784488418,"id":"1","progress":0.999,"total":843,"current":812}
+{"_e":"metro:bundling:progress","_t":1782784488523,"id":"1","progress":0.999,"total":868,"current":868}
+{"_e":"metro:bundling:done","_t":1782784488593,"id":"1","total":868,"ms":4189.9805}
+{"_e":"metro:client_log","_t":1782784741904,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `SignIn`.]"]}
+{"_e":"metro:client_log","_t":1782784816517,"level":"error","data":["[ReferenceError: Property 'Container' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1782784817853,"level":"error","data":["[ReferenceError: Property 'Container' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1782784843777,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `SignIn`.]"]}
+{"_e":"metro:client_log","_t":1782784894842,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `SignIn`.]"]}
+{"_e":"metro:bundling:started","_t":1782785028664,"id":"d","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785028664,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785028733,"id":"d","total":1,"ms":68.7237}
+{"_e":"metro:bundling:started","_t":1782785138769,"id":"e","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785138769,"id":"e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785138837,"id":"e","total":1,"ms":68.2264}
+{"_e":"metro:client_log","_t":1782785297166,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `SignIn`.]"]}
+{"_e":"metro:bundling:started","_t":1782785494289,"id":"h","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785494289,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785494380,"id":"h","total":1,"ms":90.4224}
+{"_e":"metro:bundling:started","_t":1782785529265,"id":"i","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785529266,"id":"i","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785529311,"id":"i","total":1,"ms":45.3189}
+{"_e":"metro:bundling:started","_t":1782785542983,"id":"j","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785542983,"id":"j","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785543059,"id":"j","total":1,"ms":76.2021}
+{"_e":"metro:bundling:started","_t":1782785573962,"id":"k","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785573962,"id":"k","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785574044,"id":"k","total":1,"ms":81.7027}
+{"_e":"metro:bundling:started","_t":1782785722114,"id":"l","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785722114,"id":"l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785722160,"id":"l","total":1,"ms":45.4833}
+{"_e":"metro:bundling:started","_t":1782785758195,"id":"n","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785758196,"id":"n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785758248,"id":"n","total":1,"ms":52.3824}
+{"_e":"metro:client_log","_t":1782785932016,"level":"warn","data":["Deep imports from the 'react-native' package are deprecated ('react-native/Libraries/Performance/Systrace'). Source: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signIn\\index.js 15:0"]}
+{"_e":"metro:client_log","_t":1782785932029,"level":"warn","data":["Deep imports from the 'react-native' package are deprecated ('react-native/Libraries/Performance/Systrace'). Source: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signIn\\index.js 15:0"]}
+{"_e":"metro:bundling:started","_t":1782785935877,"id":"r","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782785935877,"id":"r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782785935918,"id":"r","total":1,"ms":40.6805}
+{"_e":"metro:client_log","_t":1782785937072,"level":"warn","data":["Deep imports from the 'react-native' package are deprecated ('react-native/Libraries/Performance/Systrace'). Source: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signIn\\index.js 15:0"]}
+{"_e":"metro:bundling:failed","_t":1782786245628,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signIn\\index.js: Missing semicolon. (21:12)\n\n  19 |     const navigation = useNavigation();\n  20 |\n> 21 |     render() {\n     |             ^\n  22 |         return (\n  23 |             <Background>\n  24 |                 <Container","importStack":null,"filename":"src\\pages\\signIn\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1782786245983,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signIn\\index.js: Missing semicolon. (21:12)\n\n  19 |     const navigation = useNavigation();\n  20 |\n> 21 |     render() {\n     |             ^\n  22 |         return (\n  23 |             <Background>\n  24 |                 <Container","importStack":null,"filename":"src\\pages\\signIn\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782786251107,"id":"v","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782786251108,"id":"v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782786251108,"id":"v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1782786251120,"id":"v","message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\signIn\\index.js: Missing semicolon. (21:12)\n\n  19 |     const navigation = useNavigation();\n  20 |\n> 21 |     render() {\n     |             ^\n  22 |         return (\n  23 |             <Background>\n  24 |                 <Container","importStack":null,"filename":"src\\pages\\signIn\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782786271696,"id":"w","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1782786271696,"id":"w","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782786271765,"id":"w","total":1,"ms":69.1362}
