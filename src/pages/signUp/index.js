@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Platform } from 'react-native';
+import { Platform, ActivityIndicator } from 'react-native';
 
 import {
     Background,
@@ -14,14 +14,18 @@ import { AuthContext } from '../../contexts/auth';
 
 export default function SignUp() {
 
-    const { signUp } = useContext(AuthContext)
+    const { signUp, loadingAuth } = useContext(AuthContext)
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     function handleSignUp() {
+        if(nome === '' || email === '' || password === ''){
+
+        }
+
         signUp(nome, email, password);
-    } 
+    }
 
     return (
         <Background>
@@ -34,7 +38,7 @@ export default function SignUp() {
                     <Input
                         placeholder='Digite seu Nome'
                         value={nome}
-                        onChangeText={ (text) => setNome(text) }
+                        onChangeText={(text) => setNome(text)}
                     />
                 </AreaInput>
 
@@ -42,7 +46,7 @@ export default function SignUp() {
                     <Input
                         placeholder='Digite seu E-mail'
                         value={email}
-                        onChangeText={ (text) => setEmail(text) }
+                        onChangeText={(text) => setEmail(text)}
                     />
                 </AreaInput>
 
@@ -50,13 +54,21 @@ export default function SignUp() {
                     <Input
                         placeholder='Digite sua Senha'
                         value={password}
-                        onChangeText={ (text) => setPassword(text) }
+                        onChangeText={(text) => setPassword(text)}
                         secureTextEntry={true}
                     />
                 </AreaInput>
 
                 <SubmitButton onPress={handleSignUp} >
-                    <SubmitText>Cadastar-se</SubmitText>
+
+                    {
+                        loadingAuth ? (
+                            <ActivityIndicator size={20} color="#fefefe" />
+                        ) : (
+                            <SubmitText>Cadastar-se</SubmitText>
+                        )
+                    }
+
                 </SubmitButton>
 
             </Container>
