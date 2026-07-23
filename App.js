@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { Component } from 'react';
 import {
   StatusBar,
