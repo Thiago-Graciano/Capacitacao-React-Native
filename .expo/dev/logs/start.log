@@ -4408,3 +4408,41 @@
 {"_e":"metro:client_log","_t":1784870063237,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
 {"_e":"metro:client_log","_t":1784870064067,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
 {"_e":"metro:client_log","_t":1784870064238,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1784870127082,"level":"log","data":["Erro ao cadastrar"]}
+{"_e":"metro:client_log","_t":1784870129683,"level":"log","data":["Erro ao cadastrar"]}
+{"_e":"metro:client_log","_t":1784870131095,"level":"log","data":["Erro ao cadastrar"]}
+{"_e":"root:init","_t":1784901315194,"format":"v0-jsonl","version":"56.1.20"}
+{"_e":"env:mode","_t":1784901315196,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1784901315204,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1784901315987,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1784901318330,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1784901329310,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1784901335110,"id":"1","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1784901335111,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784901335121,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784901335220,"id":"1","progress":0.0244140625,"total":128,"current":20}
+{"_e":"metro:bundling:progress","_t":1784901335322,"id":"1","progress":0.21401432439514367,"total":214,"current":99}
+{"_e":"metro:bundling:progress","_t":1784901335423,"id":"1","progress":0.2245217009194159,"total":344,"current":163}
+{"_e":"metro:bundling:progress","_t":1784901335522,"id":"1","progress":0.33284023668639046,"total":442,"current":255}
+{"_e":"metro:bundling:progress","_t":1784901335622,"id":"1","progress":0.4123776137439251,"total":517,"current":332}
+{"_e":"metro:bundling:progress","_t":1784901335722,"id":"1","progress":0.6119065455698369,"total":597,"current":467}
+{"_e":"metro:bundling:progress","_t":1784901335827,"id":"1","progress":0.7177498907125086,"total":661,"current":560}
+{"_e":"metro:bundling:progress","_t":1784901335937,"id":"1","progress":0.7177498907125086,"total":789,"current":659}
+{"_e":"metro:bundling:progress","_t":1784901336037,"id":"1","progress":0.8095704626881826,"total":838,"current":754}
+{"_e":"metro:bundling:progress","_t":1784901336147,"id":"1","progress":0.8095704626881826,"total":909,"current":793}
+{"_e":"metro:bundling:progress","_t":1784901336300,"id":"1","progress":0.8095704626881826,"total":909,"current":794}
+{"_e":"metro:bundling:progress","_t":1784901336399,"id":"1","progress":0.8095704626881826,"total":985,"current":884}
+{"_e":"metro:bundling:progress","_t":1784901336505,"id":"1","progress":0.8257832675559275,"total":997,"current":906}
+{"_e":"metro:bundling:progress","_t":1784901336674,"id":"1","progress":0.8276071947034684,"total":997,"current":907}
+{"_e":"metro:bundling:progress","_t":1784901336773,"id":"1","progress":0.8373804018159662,"total":1001,"current":916}
+{"_e":"metro:bundling:progress","_t":1784901336874,"id":"1","progress":0.8735529070015806,"total":1071,"current":1001}
+{"_e":"metro:bundling:progress","_t":1784901336974,"id":"1","progress":0.9089450628843978,"total":1137,"current":1084}
+{"_e":"metro:bundling:progress","_t":1784901337078,"id":"1","progress":0.9089450628843978,"total":1193,"current":1135}
+{"_e":"metro:bundling:progress","_t":1784901337179,"id":"1","progress":0.9103474672813334,"total":1286,"current":1227}
+{"_e":"metro:bundling:progress","_t":1784901337289,"id":"1","progress":0.999,"total":1324,"current":1324}
+{"_e":"metro:bundling:done","_t":1784901337388,"id":"1","total":1324,"ms":2277.0464}
+{"_e":"root:init","_t":1784901703179,"format":"v0-jsonl","version":"56.1.20"}
+{"_e":"env:mode","_t":1784901703181,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1784901703187,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1784901703853,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1784901704872,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
