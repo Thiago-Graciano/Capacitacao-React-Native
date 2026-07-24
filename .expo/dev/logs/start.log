@@ -4446,3 +4446,28 @@
 {"_e":"env:load","_t":1784901703187,"mode":"development","files":[],"env":{}}
 {"_e":"devserver:start","_t":1784901703853,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
 {"_e":"metro:config","_t":1784901704872,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1784901713845,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1784901723358,"id":"1","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1784901723358,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784901723363,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784901723463,"id":"1","progress":0.004109138724523339,"total":156,"current":10}
+{"_e":"metro:bundling:progress","_t":1784901723563,"id":"1","progress":0.14317019722425128,"total":259,"current":98}
+{"_e":"metro:bundling:progress","_t":1784901723663,"id":"1","progress":0.23783639496226555,"total":406,"current":198}
+{"_e":"metro:bundling:progress","_t":1784901723763,"id":"1","progress":0.3054016620498616,"total":494,"current":273}
+{"_e":"metro:bundling:progress","_t":1784901723863,"id":"1","progress":0.40186543367346933,"total":560,"current":355}
+{"_e":"metro:bundling:progress","_t":1784901723966,"id":"1","progress":0.6007504110765491,"total":618,"current":479}
+{"_e":"metro:bundling:progress","_t":1784901724066,"id":"1","progress":0.8022883811961309,"total":652,"current":584}
+{"_e":"metro:bundling:progress","_t":1784901724168,"id":"1","progress":0.8022883811961309,"total":730,"current":629}
+{"_e":"metro:bundling:progress","_t":1784901724289,"id":"1","progress":0.8022883811961309,"total":793,"current":676}
+{"_e":"metro:bundling:progress","_t":1784901724389,"id":"1","progress":0.8022883811961309,"total":888,"current":755}
+{"_e":"metro:bundling:progress","_t":1784901724489,"id":"1","progress":0.8022883811961309,"total":958,"current":845}
+{"_e":"metro:bundling:progress","_t":1784901724589,"id":"1","progress":0.80262945628311,"total":999,"current":895}
+{"_e":"metro:bundling:progress","_t":1784901724689,"id":"1","progress":0.8797146254458977,"total":1015,"current":952}
+{"_e":"metro:bundling:progress","_t":1784901724790,"id":"1","progress":0.9005449274618916,"total":1117,"current":1060}
+{"_e":"metro:bundling:progress","_t":1784901724890,"id":"1","progress":0.9027959744179501,"total":1284,"current":1220}
+{"_e":"metro:bundling:progress","_t":1784901725007,"id":"1","progress":0.999,"total":1324,"current":1324}
+{"_e":"metro:bundling:done","_t":1784901725093,"id":"1","total":1324,"ms":1735.2467}
+{"_e":"metro:client_log","_t":1784901827831,"level":"error","data":["[ReferenceError: Property 'createDrawerNavigator' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1784901852933,"level":"error","data":["[ReferenceError: Property 'createDrawerNavigator' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1784901854162,"level":"error","data":["[TypeError: undefined is not a function]"]}
+{"_e":"metro:client_log","_t":1784901958305,"level":"error","data":["[TypeError: undefined is not a function]"]}
