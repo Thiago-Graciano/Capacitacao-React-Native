@@ -5,6 +5,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { NavigationContainer } from '@react-navigation/native'
 
@@ -16,12 +17,14 @@ export default class App extends Component {
   render() {
     return (
       <GestureHandlerRootView style={styles.container}>
-        <NavigationContainer>
-          <AuthProvider>
-            <StatusBar backgroundColor="#F0F4FF" barStyle="dark-content" />
-            <Routes />
-          </AuthProvider>
-        </NavigationContainer>
+        <SafeAreaProvider>
+          <NavigationContainer>
+            <AuthProvider>
+              <StatusBar backgroundColor="#F0F4FF" barStyle="dark-content" />
+              <Routes />
+            </AuthProvider>
+          </NavigationContainer>
+        </SafeAreaProvider>
       </GestureHandlerRootView>
     );
   }

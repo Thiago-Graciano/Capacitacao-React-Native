@@ -1,8 +1,7 @@
 import styled from 'styled-components/native';
+import { View } from 'react-native';
 
-import { SafeAreaView } from 'react-native-safe-area-context';
-
-export const Container = styled(SafeAreaView)`
+export const Container = styled(View)`
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -15,10 +14,13 @@ export const Container = styled(SafeAreaView)`
 
 export const Title = styled.Text`
     font-size: 22px;
+    font-weight: 600;
+    color: #121212;
     margin-left: 8px;
 `;
 
 export const ButtonMenu = styled.TouchableOpacity`
     justify-content: center;
     align-items: center;
+    padding-right: 8px;
 `;
