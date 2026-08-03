@@ -4958,3 +4958,134 @@
 {"_e":"metro:bundling:started","_t":1785723604932,"id":"6","platform":"android","environment":null,"entry":"index.js"}
 {"_e":"metro:bundling:progress","_t":1785723604932,"id":"6","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1785723605020,"id":"6","total":1,"ms":87.4886}
+{"_e":"metro:client_log","_t":1785723735053,"level":"error","data":["[ReferenceError: Property 'styles' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1785724617204,"id":null,"message":"Unable to resolve \"./isExists.cjs\" from \"node_modules\\date-fns\\index.cjs\"\n  1233 |   });\n  1234 | });\n> 1235 | var _index111 = require(\"./isExists.cjs\");\n       |                          ^\n  1236 | Object.keys(_index111).forEach(function (key) {\n  1237 |   if (key === \"default\" || key === \"__esModule\") return;\n  1238 |   if (key in exports && exports[key] === _index111[key]) return;","importStack":"\u001b[1mImport stack:\u001b[22m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\date-fns\\index.cjs\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./isExists.cjs\"\u001b[39m\u001b[90m\u001b[39m\n\n\u001b[90m \u001b[39msrc\\pages\\home\\index.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"date-fns\"\u001b[39m\n\n\u001b[90m \u001b[39msrc\\routes\\app.routes.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../pages/home\"\u001b[39m\n\n\u001b[90m \u001b[39msrc\\routes\\index.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./app.routes\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/routes\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n","filename":null,"targetModuleName":"./isExists.cjs","originModulePath":"node_modules\\date-fns\\index.cjs"}
+{"_e":"metro:bundling:failed","_t":1785724635747,"id":null,"message":"Unable to resolve \"./isExists.cjs\" from \"node_modules\\date-fns\\index.cjs\"\n  1233 |   });\n  1234 | });\n> 1235 | var _index111 = require(\"./isExists.cjs\");\n       |                          ^\n  1236 | Object.keys(_index111).forEach(function (key) {\n  1237 |   if (key === \"default\" || key === \"__esModule\") return;\n  1238 |   if (key in exports && exports[key] === _index111[key]) return;","importStack":"\u001b[1mImport stack:\u001b[22m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\date-fns\\index.cjs\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./isExists.cjs\"\u001b[39m\u001b[90m\u001b[39m\n\n\u001b[90m \u001b[39msrc\\pages\\home\\index.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"date-fns\"\u001b[39m\n\n\u001b[90m \u001b[39msrc\\routes\\app.routes.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../pages/home\"\u001b[39m\n\n\u001b[90m \u001b[39msrc\\routes\\index.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./app.routes\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/routes\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n","filename":null,"targetModuleName":"./isExists.cjs","originModulePath":"node_modules\\date-fns\\index.cjs"}
+{"_e":"root:init","_t":1785724864164,"format":"v0-jsonl","version":"56.1.22"}
+{"_e":"env:mode","_t":1785724864168,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1785724864178,"mode":"development","files":[],"env":{}}
+{"_e":"root:init","_t":1785725062930,"format":"v0-jsonl","version":"56.1.22"}
+{"_e":"env:mode","_t":1785725062932,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1785725062939,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1785725063966,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1785725065673,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1785725077993,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1785725138028,"id":"1","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785725138028,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785725138065,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785725138165,"id":"1","progress":0.0031739734179726245,"total":142,"current":8}
+{"_e":"metro:bundling:progress","_t":1785725138265,"id":"1","progress":0.015625,"total":200,"current":25}
+{"_e":"metro:bundling:progress","_t":1785725138365,"id":"1","progress":0.0484,"total":250,"current":55}
+{"_e":"metro:bundling:progress","_t":1785725138466,"id":"1","progress":0.1644892599373137,"total":323,"current":131}
+{"_e":"metro:bundling:progress","_t":1785725138566,"id":"1","progress":0.1895064478602015,"total":402,"current":175}
+{"_e":"metro:bundling:progress","_t":1785725138666,"id":"1","progress":0.307156336188126,"total":498,"current":276}
+{"_e":"metro:bundling:progress","_t":1785725138780,"id":"1","progress":0.3875563634268963,"total":559,"current":348}
+{"_e":"metro:bundling:progress","_t":1785725138880,"id":"1","progress":0.3998702422145328,"total":612,"current":387}
+{"_e":"metro:bundling:progress","_t":1785725138992,"id":"1","progress":0.3998702422145328,"total":656,"current":412}
+{"_e":"metro:bundling:progress","_t":1785725139092,"id":"1","progress":0.5455836776859504,"total":704,"current":520}
+{"_e":"metro:bundling:progress","_t":1785725139192,"id":"1","progress":0.6638391229118334,"total":718,"current":585}
+{"_e":"metro:bundling:progress","_t":1785725139292,"id":"1","progress":0.7324068941053582,"total":749,"current":641}
+{"_e":"metro:bundling:progress","_t":1785725139392,"id":"1","progress":0.7458677685950413,"total":836,"current":722}
+{"_e":"metro:bundling:progress","_t":1785725139508,"id":"1","progress":0.7458677685950413,"total":891,"current":743}
+{"_e":"metro:bundling:progress","_t":1785725139608,"id":"1","progress":0.7458677685950413,"total":998,"current":805}
+{"_e":"metro:bundling:progress","_t":1785725139708,"id":"1","progress":0.7458677685950413,"total":1080,"current":874}
+{"_e":"metro:bundling:progress","_t":1785725139824,"id":"1","progress":0.7458677685950413,"total":1130,"current":911}
+{"_e":"metro:bundling:progress","_t":1785725139924,"id":"1","progress":0.7458677685950413,"total":1217,"current":1000}
+{"_e":"metro:bundling:progress","_t":1785725140024,"id":"1","progress":0.777893466861371,"total":1271,"current":1121}
+{"_e":"metro:bundling:progress","_t":1785725140124,"id":"1","progress":0.8339480242079031,"total":1325,"current":1210}
+{"_e":"metro:bundling:progress","_t":1785725140227,"id":"1","progress":0.8882645469496437,"total":1356,"current":1278}
+{"_e":"metro:bundling:progress","_t":1785725140327,"id":"1","progress":0.9509278191427799,"total":1449,"current":1413}
+{"_e":"metro:bundling:progress","_t":1785725140431,"id":"1","progress":0.9986750581116789,"total":1509,"current":1508}
+{"_e":"metro:bundling:progress","_t":1785725141590,"id":"1","progress":0.999,"total":1509,"current":1509}
+{"_e":"metro:bundling:progress","_t":1785725141736,"id":"1","progress":0.999,"total":1750,"current":1509}
+{"_e":"metro:bundling:progress","_t":1785725141761,"id":"1","progress":0.999,"total":1750,"current":1510}
+{"_e":"metro:bundling:progress","_t":1785725141863,"id":"1","progress":0.999,"total":1752,"current":1515}
+{"_e":"metro:bundling:progress","_t":1785725141964,"id":"1","progress":0.999,"total":1752,"current":1522}
+{"_e":"metro:bundling:progress","_t":1785725142066,"id":"1","progress":0.999,"total":1753,"current":1530}
+{"_e":"metro:bundling:progress","_t":1785725142166,"id":"1","progress":0.999,"total":1754,"current":1538}
+{"_e":"metro:bundling:progress","_t":1785725142266,"id":"1","progress":0.999,"total":1754,"current":1545}
+{"_e":"metro:bundling:progress","_t":1785725142374,"id":"1","progress":0.999,"total":1754,"current":1554}
+{"_e":"metro:bundling:progress","_t":1785725142474,"id":"1","progress":0.999,"total":1754,"current":1562}
+{"_e":"metro:bundling:progress","_t":1785725142574,"id":"1","progress":0.999,"total":1758,"current":1568}
+{"_e":"metro:bundling:progress","_t":1785725142674,"id":"1","progress":0.999,"total":1759,"current":1574}
+{"_e":"metro:bundling:progress","_t":1785725142775,"id":"1","progress":0.999,"total":1762,"current":1578}
+{"_e":"metro:bundling:progress","_t":1785725142876,"id":"1","progress":0.999,"total":1762,"current":1588}
+{"_e":"metro:bundling:progress","_t":1785725142981,"id":"1","progress":0.999,"total":1762,"current":1597}
+{"_e":"metro:bundling:progress","_t":1785725143084,"id":"1","progress":0.999,"total":1762,"current":1606}
+{"_e":"metro:bundling:progress","_t":1785725143188,"id":"1","progress":0.999,"total":1762,"current":1612}
+{"_e":"metro:bundling:progress","_t":1785725143289,"id":"1","progress":0.999,"total":1762,"current":1623}
+{"_e":"metro:bundling:progress","_t":1785725143388,"id":"1","progress":0.999,"total":1762,"current":1633}
+{"_e":"metro:bundling:progress","_t":1785725143492,"id":"1","progress":0.999,"total":1762,"current":1645}
+{"_e":"metro:bundling:progress","_t":1785725143592,"id":"1","progress":0.999,"total":1762,"current":1656}
+{"_e":"metro:bundling:progress","_t":1785725143693,"id":"1","progress":0.999,"total":1763,"current":1667}
+{"_e":"metro:bundling:progress","_t":1785725143798,"id":"1","progress":0.999,"total":1763,"current":1679}
+{"_e":"metro:bundling:progress","_t":1785725143900,"id":"1","progress":0.999,"total":1766,"current":1683}
+{"_e":"metro:bundling:progress","_t":1785725144006,"id":"1","progress":0.999,"total":1766,"current":1695}
+{"_e":"metro:bundling:progress","_t":1785725144119,"id":"1","progress":0.999,"total":1766,"current":1706}
+{"_e":"metro:bundling:progress","_t":1785725144218,"id":"1","progress":0.999,"total":1766,"current":1726}
+{"_e":"metro:bundling:progress","_t":1785725144319,"id":"1","progress":0.999,"total":1766,"current":1749}
+{"_e":"metro:bundling:progress","_t":1785725144420,"id":"1","progress":0.999,"total":1780,"current":1765}
+{"_e":"metro:bundling:progress","_t":1785725144520,"id":"1","progress":0.999,"total":1825,"current":1779}
+{"_e":"metro:bundling:progress","_t":1785725144622,"id":"1","progress":0.999,"total":1833,"current":1793}
+{"_e":"metro:bundling:progress","_t":1785725144723,"id":"1","progress":0.999,"total":1834,"current":1811}
+{"_e":"metro:bundling:progress","_t":1785725144852,"id":"1","progress":0.999,"total":1837,"current":1837}
+{"_e":"metro:bundling:done","_t":1785725144968,"id":"1","total":1837,"ms":6940.0156}
+{"_e":"metro:client_log","_t":1785725148694,"level":"log","data":["[{\"saldo\": 0, \"tag\": \"saldo\"}, {\"saldo\": 0, \"tag\": \"receita\"}, {\"saldo\": 0, \"tag\": \"despesa\"}]"]}
+{"_e":"metro:bundling:failed","_t":1785725735165,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725735359,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725770104,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725776584,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725799685,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725806254,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725821973,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725867506,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (56:46)\n\n  54 |                 showsHorizontalScrollIndicator={false}\n  55 |                 keyExtractor={item => item.tag}\n> 56 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  57 |             />\n  58 |         </Background>\n  59 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1785725882128,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\pages\\home\\index.js: Unexpected token (57:46)\n\n  55 |                 showsHorizontalScrollIndicator={false}\n  56 |                 keyExtractor={item => item.tag}\n> 57 |                 renderItem={ ({ item }) => (  )}\n     |                                               ^\n  58 |             />\n  59 |         </Background>\n  60 |     )","importStack":null,"filename":"src\\pages\\home\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1785725904355,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785725980516,"level":"error","data":["[ReferenceError: Property 'data' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1785726272496,"id":null,"message":"SyntaxError: C:\\Users\\dark_\\Downloads\\CapacitacaoReactNative\\meuapp\\src\\components\\BalanceItem\\index.js: Missing semicolon. (14:17)\n\n  12 |         } else if (data.tag === 'receita') {\n  13 |             label: 'Entradas de Hoje',\n> 14 |             color: '00b94a'\n     |                  ^\n  15 |         } else {\n  16 |             label: 'Saídas de Hoje',\n  17 |             color: 'Ef463a'","importStack":null,"filename":"src\\components\\BalanceItem\\index.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1785726366390,"level":"error","data":["[ReferenceError: Property 'Balance' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1785726378496,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `BalanceItem`.]"]}
+{"_e":"metro:bundling:started","_t":1785726473599,"id":"a","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726473599,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726473686,"id":"a","total":1,"ms":86.899}
+{"_e":"metro:client_log","_t":1785726476241,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726531089,"id":"c","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726531089,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726531177,"id":"c","total":1,"ms":88.7267}
+{"_e":"metro:client_log","_t":1785726534112,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726599573,"id":"e","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726599573,"id":"e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726599659,"id":"e","total":1,"ms":86.1338}
+{"_e":"metro:client_log","_t":1785726602452,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726659973,"id":"g","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726659974,"id":"g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726660065,"id":"g","total":1,"ms":92.0864}
+{"_e":"metro:client_log","_t":1785726662947,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726700346,"id":"i","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726700346,"id":"i","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726700428,"id":"i","total":1,"ms":81.5848}
+{"_e":"metro:client_log","_t":1785726703324,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726712439,"id":"k","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726712440,"id":"k","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726712527,"id":"k","total":1,"ms":87.5695}
+{"_e":"metro:client_log","_t":1785726715858,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726737183,"id":"m","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726737183,"id":"m","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726737265,"id":"m","total":1,"ms":82.3989}
+{"_e":"metro:client_log","_t":1785726740191,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726755046,"id":"o","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726755046,"id":"o","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726755112,"id":"o","total":1,"ms":65.7327}
+{"_e":"metro:client_log","_t":1785726758332,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726767666,"id":"q","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726767666,"id":"q","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726767740,"id":"q","total":1,"ms":73.5055}
+{"_e":"metro:client_log","_t":1785726770636,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726813968,"id":"s","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726813968,"id":"s","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726814054,"id":"s","total":1,"ms":86.1073}
+{"_e":"metro:client_log","_t":1785726817002,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1785726825060,"id":"u","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785726825060,"id":"u","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785726825148,"id":"u","total":1,"ms":88.6285}
+{"_e":"metro:client_log","_t":1785726828067,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
