@@ -24,16 +24,16 @@ function AuthProvider({ children }) {
                         'Authorization': `Bearer ${storageUser}`
                     }
                 })
-                .catch(() => {
-                    setUser(null);
-                })
+                    .catch(() => {
+                        setUser(null);
+                    })
 
                 api.defaults.headers['Authorization'] = `Bearer ${storageUser}`;
                 setUser(response.data);
                 setLoading(false);
             }
 
-        setLoading(false);
+            setLoading(false);
 
         }
 
@@ -97,9 +97,9 @@ function AuthProvider({ children }) {
 
     async function signOut() {
         await AsyncStorage.clear()
-        .then(() => {
-            setUser(null);
-        })
+            .then(() => {
+                setUser(null);
+            })
     }
 
     return (
