@@ -1,9 +1,10 @@
 import 'react-native-gesture-handler';
-import { Component } from 'react';
+import React, { Component } from 'react';
 import {
   StatusBar,
   StyleSheet,
 } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { NavigationContainer } from '@react-navigation/native'
 
@@ -14,12 +15,14 @@ export default class App extends Component {
 
   render() {
     return (
-      <NavigationContainer>
-        <AuthProvider>
-          <StatusBar backgroundColor="#F0F4FF" barStyle="dark-content" />
-          <Routes />
-        </AuthProvider>
-      </NavigationContainer>
+      <GestureHandlerRootView style={styles.container}>
+        <NavigationContainer>
+          <AuthProvider>
+            <StatusBar backgroundColor="#F0F4FF" barStyle="dark-content" />
+            <Routes />
+          </AuthProvider>
+        </NavigationContainer>
+      </GestureHandlerRootView>
     );
   }
 }
@@ -27,7 +30,5 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   }
 })
