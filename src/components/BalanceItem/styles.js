@@ -1,0 +1,27 @@
+import styled from "styled-components/native";
+
+export const Container = styled.View`
+    background-color: #${props => props.bg};
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    padding-left: 14px;
+`;
+
+export const Label = styled.Text`
+    color: #fefefe;
+    font-size: 19px;
+    font-weight: bold;
+`;
+
+export const Balance = styled.Text`
+    margin-top: 5px;
+    font-size: 30px;
+    color: #${props => props.bg};
+    padding: 2px 5px 2px 5px;
+    background-color: #fefefe;
+    font-weight: bold;
+`;
