@@ -2,12 +2,13 @@ import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import Home from '../pages/home'
+import New from '../pages/New'
 
-const appDrawer = createDrawerNavigator();
+const AppDrawer = createDrawerNavigator();
 
 function appRoutes() {
     return(
-        <appDrawer.Navigator
+        <AppDrawer.Navigator
             screenOptions={{
                 headerShown: false,
 
@@ -23,11 +24,16 @@ function appRoutes() {
                 drawerInactiveTintColor: '#121212',
             }}
         >
-            <appDrawer.Screen
+            <AppDrawer.Screen
                 name="Home"
                 component={Home}
             />
-        </appDrawer.Navigator>
+
+            <AppDrawer.Screen
+                name="Registrar"
+                component={New}
+            />
+        </AppDrawer.Navigator>
     )
 }
 
