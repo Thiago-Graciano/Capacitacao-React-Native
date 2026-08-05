@@ -8,5 +8,5 @@ export const Background = styled(SafeAreaView)`
 `;
 
 export const ListBalance = styled.FlatList`
-max-height: 190;
+    max-height: 190;
 `
