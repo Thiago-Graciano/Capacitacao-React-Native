@@ -5872,3 +5872,77 @@
 {"_e":"metro:bundling:done","_t":1785939427111,"id":"x","total":1,"ms":75.7796}
 {"_e":"metro:client_log","_t":1785939430756,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
 {"_e":"metro:client_log","_t":1785939431943,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1785940169803,"id":"10","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785940169803,"id":"10","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785940169886,"id":"10","total":1,"ms":82.3373}
+{"_e":"metro:client_log","_t":1785940174297,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785940176303,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1785940337452,"id":"13","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785940337452,"id":"13","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785940337787,"id":"13","total":1,"ms":335.5756}
+{"_e":"metro:client_log","_t":1785940343188,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785940344417,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1785941560304,"id":"16","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785941560304,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941560306,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941560459,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941567751,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941567851,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941568502,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941568515,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941568618,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941568722,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941568821,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941568921,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941569021,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941569121,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941569792,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941569832,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941570401,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941571065,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785941571081,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785941571165,"id":"16","total":1,"ms":10860.2156}
+{"_e":"metro:client_log","_t":1785941575920,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785941575920,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1785941585468,"level":"error","data":["[ReferenceError: Property 'parseloat' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1785941585468,"level":"error","data":["[ReferenceError: Property 'parseloat' doesn't exist]"]}
+{"_e":"metro:bundling:started","_t":1785941608573,"id":"1b","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785941608574,"id":"1b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785941608636,"id":"1b","total":1,"ms":62.6851}
+{"_e":"metro:client_log","_t":1785941612998,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785941616091,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1785942003189,"id":"1e","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785942003189,"id":"1e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942003191,"id":"1e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942006976,"id":"1e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785942007048,"id":"1e","total":1,"ms":3859.2281}
+{"_e":"metro:client_log","_t":1785942012111,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785942014558,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1785942018833,"level":"error","data":["[TypeError: undefined is not a function]"]}
+{"_e":"metro:client_log","_t":1785942068491,"level":"error","data":["[TypeError: undefined is not a function]"]}
+{"_e":"metro:bundling:started","_t":1785942487759,"id":"1j","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785942487759,"id":"1j","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785942487871,"id":"1j","total":1,"ms":112.4859}
+{"_e":"metro:client_log","_t":1785942492808,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785942494140,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1785942509136,"level":"error","data":["[Error: Uncaught (in promise, id: 0): \"AxiosError: Request failed with status code 404\"]"]}
+{"_e":"metro:client_log","_t":1785942513771,"level":"error","data":["[Error: Uncaught (in promise, id: 1): \"AxiosError: Request failed with status code 404\"]"]}
+{"_e":"metro:client_log","_t":1785942566622,"level":"error","data":["[Error: Uncaught (in promise, id: 2): \"AxiosError: Request failed with status code 404\"]"]}
+{"_e":"metro:client_log","_t":1785942579102,"level":"error","data":["[Error: Uncaught (in promise, id: 3): \"AxiosError: Request failed with status code 404\"]"]}
+{"_e":"metro:bundling:started","_t":1785942758964,"id":"1r","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785942758964,"id":"1r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942758965,"id":"1r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942759639,"id":"1r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942763120,"id":"1r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942764078,"id":"1r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1785942764147,"id":"1r","total":1,"ms":5183.6221}
+{"_e":"metro:client_log","_t":1785942768185,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1785942771178,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1785942984741,"id":"1v","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1785942984741,"id":"1v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942984742,"id":"1v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942988347,"id":"1v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942988350,"id":"1v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942988351,"id":"1v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1785942988352,"id":"1v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1785942988363,"id":"1v","message":"Unable to resolve \"react-native/navigation\" from \"src\\pages\\New\\index.js\"\n  10 | import api from \"../../services/api\";\n  11 | import { format } from \"date-fns\";\n> 12 | import { useNavigation } from \"react-native/navigation\"\n     |                                ^\n  13 |\n  14 | export default function New() {\n  15 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc\\pages\\New\\index.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"react-native/navigation\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/pages/New/index\"\u001b[39m\n","filename":null,"targetModuleName":"react-native/navigation","originModulePath":"src\\pages\\New\\index.js"}
