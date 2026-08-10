@@ -6058,3 +6058,120 @@
 {"_e":"metro:bundling:done","_t":1786380568732,"id":"1","total":1845,"ms":22314.9366}
 {"_e":"metro:client_log","_t":1786380572239,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
 {"_e":"metro:client_log","_t":1786380577253,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1786381144641,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `Home`.]"]}
+{"_e":"metro:bundling:started","_t":1786381660721,"id":"7","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786381660721,"id":"7","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786381660800,"id":"7","total":1,"ms":78.9039}
+{"_e":"metro:client_log","_t":1786381663604,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786382159264,"id":"a","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786382159265,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786382159266,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786382159407,"id":"a","total":1,"ms":142.4648}
+{"_e":"metro:client_log","_t":1786382162456,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1786382165351,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1786382422507,"level":"error","data":["[ReferenceError: Property 'Tipo' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1786382511448,"level":"error","data":["[ReferenceError: Property 'Tipo' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1786382543417,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `HistoricoList`.]"]}
+{"_e":"metro:bundling:started","_t":1786382923454,"id":"j","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786382923454,"id":"j","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786382923535,"id":"j","total":1,"ms":80.9357}
+{"_e":"metro:client_log","_t":1786382926446,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383080671,"id":"l","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383080672,"id":"l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383080754,"id":"l","total":1,"ms":82.4939}
+{"_e":"metro:client_log","_t":1786383083584,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383113105,"id":"n","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383113105,"id":"n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383113186,"id":"n","total":1,"ms":81.2393}
+{"_e":"metro:client_log","_t":1786383116059,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383311709,"id":"q","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383311709,"id":"q","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383311783,"id":"q","total":1,"ms":74.2672}
+{"_e":"metro:client_log","_t":1786383314840,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383406696,"id":"s","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383406696,"id":"s","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383406788,"id":"s","total":1,"ms":92.0645}
+{"_e":"metro:client_log","_t":1786383410086,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1786383488247,"level":"error","data":["[ReferenceError: Property 'data' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1786383506890,"level":"error","data":["[ReferenceError: Property 'data' doesn't exist]"]}
+{"_e":"metro:bundling:started","_t":1786383601387,"id":"y","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383601387,"id":"y","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383601467,"id":"y","total":1,"ms":79.8793}
+{"_e":"metro:client_log","_t":1786383604551,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383630137,"id":"10","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383630137,"id":"10","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383630210,"id":"10","total":1,"ms":72.7969}
+{"_e":"metro:client_log","_t":1786383633349,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383790245,"id":"12","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383790245,"id":"12","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383790337,"id":"12","total":1,"ms":91.7335}
+{"_e":"metro:client_log","_t":1786383793452,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383810717,"id":"14","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383810717,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383810721,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383810993,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383811669,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383811769,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383811869,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383811970,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383812070,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383812170,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383812290,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383812390,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383812515,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383812672,"id":"14","total":1,"ms":1954.4053}
+{"_e":"metro:client_log","_t":1786383815933,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383820909,"id":"16","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383820909,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383820978,"id":"16","total":1,"ms":68.3835}
+{"_e":"metro:client_log","_t":1786383824140,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383933105,"id":"18","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383933105,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383933107,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383933212,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383933766,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383933866,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383933966,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934066,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934166,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934266,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934367,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934466,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934566,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786383934669,"id":"18","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383934755,"id":"18","total":1,"ms":1649.5005}
+{"_e":"metro:client_log","_t":1786383938066,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786383954268,"id":"1a","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786383954269,"id":"1a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786383954331,"id":"1a","total":1,"ms":62.0283}
+{"_e":"metro:client_log","_t":1786383957570,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1786383964048,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1786384020023,"id":"1d","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786384020023,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786384020092,"id":"1d","total":1,"ms":68.5603}
+{"_e":"metro:client_log","_t":1786384023247,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786384037368,"id":"1f","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786384037369,"id":"1f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786384037434,"id":"1f","total":1,"ms":65.24}
+{"_e":"metro:client_log","_t":1786384041053,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:bundling:started","_t":1786384328604,"id":"1h","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786384328604,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384328640,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384328751,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384328896,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384329189,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384329629,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384329783,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384329933,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330033,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330155,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330255,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330355,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330455,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330556,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330656,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330756,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786384330859,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786384330959,"id":"1h","total":1,"ms":2354.5708}
+{"_e":"metro:client_log","_t":1786384334500,"level":"warn","data":["Expected style \"maxHeight: 190\" to contain units"]}
+{"_e":"metro:client_log","_t":1786384357727,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
