@@ -9,4 +9,27 @@ export const Background = styled(SafeAreaView)`
 
 export const ListBalance = styled.FlatList`
     max-height: 190;
-`
+`;
+
+export const Area = styled.View`
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: baseline;
+`;
+
+export const Title = styled.Text`
+   margin-left: 4px;
+   color: #121212;
+   margin-bottom: 14px;
+   font-weith: bold;
+   font-size: 18px;
+`;
+
+export const List = styled.FlatList`
+    flex: 1;
+    background-color: #fff;
+`;
