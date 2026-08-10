@@ -22,6 +22,12 @@ function appRoutes() {
 
                 drawerInactiveBackgroundColor: '#f0f2ff',
                 drawerInactiveTintColor: '#121212',
+
+                drawerItemStyle: {
+                    marginHorizontal: 12,
+                    marginVertical: 6,
+                    borderRadius: 8,
+                },
             }}
         >
             <AppDrawer.Screen
