@@ -20,13 +20,13 @@ export const Area = styled.View`
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    align-items: baseline;
+    align-items: center;
 `;
 
 export const Title = styled.Text`
+    margin-bottom: 14px;
    margin-left: 4px;
    color: #121212;
-   margin-bottom: 14px;
    font-weith: bold;
    font-size: 18px;
 `;
