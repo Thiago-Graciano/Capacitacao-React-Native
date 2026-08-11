@@ -5,6 +5,7 @@ import {
     Tipo,
     IconView,
     ValorText,
+    Transacao
 } from './styles';
 
 import { TouchableWithoutFeedback, Alert } from 'react-native';
@@ -41,6 +42,7 @@ export default function HistoricoList({ data, deleteItem }) {
                             color="#FFF" />
                         <TipoText>{data.type}</TipoText>
                     </IconView>
+                    <Transacao tipo={data.type}>{data.description}</Transacao> 
                     
                 </Tipo>
 

@@ -31,3 +31,17 @@ export const ValorText = styled.Text`
     font-size: 22px;
     font-weight: bold;
 `;
+
+export const Transacao = styled.Text`
+    color: #fff;
+    background-color: ${props => props.tipo === "despesa" ?  "#C62C36" : "#049301"};
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 8px;
+    justify-content: center;
+    align-items: center;
+    max-height: 29px;
+`;
