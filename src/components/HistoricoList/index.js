@@ -14,19 +14,19 @@ import Icon from 'react-native-vector-icons/Feather';
 
 export default function HistoricoList({ data, deleteItem }) {
 
-    function handleDeleteItem(){
+    function handleDeleteItem() {
         Alert.alert(
             "Atenção",
             "Você tem certeza que deseja deletar esse registro?",
             [
-              {
-                text: "Cancelar",
-                style: "cancel"
-              },
-              {
-                text: "Continuar",
-                onPress: () => deleteItem(data.id)
-              }
+                {
+                    text: "Cancelar",
+                    style: "cancel"
+                },
+                {
+                    text: "Continuar",
+                    onPress: () => deleteItem(data.id)
+                }
             ]
         )
     }
@@ -42,8 +42,12 @@ export default function HistoricoList({ data, deleteItem }) {
                             color="#FFF" />
                         <TipoText>{data.type}</TipoText>
                     </IconView>
-                    <Transacao tipo={data.type}>{data.description}</Transacao> 
-                    
+                    <Transacao
+                        tipo={data.type}
+                        numberOfLines={1}
+                    >
+                        {data.description}</Transacao>
+
                 </Tipo>
 
                 <ValorText>
