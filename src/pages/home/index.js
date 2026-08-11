@@ -76,6 +76,12 @@ export default function Home() {
         }
     }
 
+    function filterDateMovements(dateSelected) {
+        let dateFilter = new Date(dateSelected);
+        dateFilter.setDate(dateFilter.getDate() + 1);
+        setDateMovements(dateFilter);
+    }
+
     return (
         <Background>
             <Header title="Minhas Movimentações" />
@@ -89,7 +95,7 @@ export default function Home() {
 
             <Area>
                 <TouchableOpacity
-                    onPress={ () => setModalVisible(true) }
+                    onPress={() => setModalVisible(true)}
                     style={{ marginBottom: 15 }}
                 >
                     <Icon name="event" color="#121212" size={30} />
@@ -110,8 +116,9 @@ export default function Home() {
                 animationType="fade"
                 transparent={true}
             >
-                <CalendarModal 
-                    setVisible={ () => setModalVisible(false) }
+                <CalendarModal
+                    setVisible={() => setModalVisible(false)}
+                    handleFilter={filterDateMovements}
                 />
             </Modal>
 

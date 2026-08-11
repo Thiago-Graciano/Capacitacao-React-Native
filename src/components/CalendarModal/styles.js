@@ -14,7 +14,7 @@ export const ModalContent = styled.View`
 
 export const ButtonFilter = styled.TouchableOpacity`
     border-radius: 4px;
-    background-color: #3b3dbf
+    background-color: #3b3dbf;
     height: 45px;
     align-items: center;
     justify-content: center;
