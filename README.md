@@ -31,45 +31,78 @@ Cada branch deste repositório representa uma aplicação diferente desenvolvida
 
 ---
 
-## 📂 Como Executar o Projeto
+## 📂 Como Executar o Projeto (App)
 
 Clone o repositório:
-
 ```bash
 git clone https://github.com/Thiago-Graciano/Capacitacao-React-Native.git
 cd Capacitacao-React-Native
 ```
 
 Instale as dependências:
-
 ```bash
 npm install
 ```
 
 Inicie o projeto:
-
 ```bash
 npm start
 ```
 
 Para acessar uma aplicação específica, altere para a branch correspondente:
-
 ```bash
 git checkout AppCronometro
 ```
-
 ou
-
 ```bash
 git checkout AppInstaSujeito
 ```
 
+> ⚠️ A branch `main` (Controle Financeiro) depende do backend rodando — veja a seção **Backend** abaixo antes de testar login, cadastro e despesas.
+
 ---
 
-## 📸 Screenshots
+## 🖥️ Backend
 
-vou adicionar depois
+O app `main` (Controle Financeiro) consome uma API própria, fornecida pelo curso (desenvolvida por [devfraga](https://github.com/devfraga)), feita em **Node.js + TypeScript + Prisma + SQLite**.
 
+🔗 Repositório do backend: https://github.com/devfraga/backend-financas
+
+### Como rodar o backend localmente
+1. Clone o repositório acima
+2. Instale as dependências:
+```bash
+   yarn install
+```
+3. Rode as migrations do Prisma (cria o banco SQLite local):
+```bash
+   npx prisma migrate dev
+```
+4. Inicie o servidor:
+```bash
+   yarn dev
+```
+5. Descubra o IP local da sua máquina (`ipconfig` no Windows / `ifconfig` no Mac/Linux) e atualize a `baseURL` em `src/services/api.js` do app com esse IP e a porta `3333`:
+```js
+   const api = axios.create({
+       baseURL: 'http://SEU_IP_LOCAL:3333'
+   })
+```
+
+---
+
+## 🗄️ Persistência e Vínculo por Usuário
+
+As transações são salvas em SQLite via Prisma, sempre vinculadas ao usuário autenticado:
+
+- No login, o backend gera um token **JWT** contendo o `id` do usuário (`sub`)
+- Toda rota protegida passa pelo middleware `isAuthenticated`, que decodifica o token e extrai o `user_id`
+- Criação, listagem e saldo de transações sempre filtram por esse `user_id` — nunca por dado enviado pelo cliente — garantindo que cada usuário só acesse os próprios dados
+
+---
+
+## 🎥 Demonstração Funcional
+<img src="./assetsToREADME/PresentationGIF.gif" width="384" />
 ---
 
 ## 🎯 Objetivos de Aprendizagem
