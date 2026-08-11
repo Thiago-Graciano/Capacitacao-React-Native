@@ -7209,3 +7209,25 @@
 {"_e":"metro:client_log","_t":1786466866526,"level":"log","data":["2026-08-10T00:00:00.000Z"]}
 {"_e":"metro:client_log","_t":1786466882415,"level":"log","data":["2026-08-12T00:00:00.000Z"]}
 {"_e":"metro:client_log","_t":1786466947311,"level":"log","data":["12/08/2026"]}
+{"_e":"metro:client_log","_t":1786467275884,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467276990,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467277624,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467278188,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467331713,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1786467519664,"id":"1d","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467519664,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467519669,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467519822,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520500,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520600,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520700,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520800,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520900,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521002,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521107,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521207,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521312,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467521508,"id":"1d","total":1,"ms":1843.2699}
+{"_e":"metro:bundling:started","_t":1786467539758,"id":"1e","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467539758,"id":"1e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467539841,"id":"1e","total":1,"ms":83.4763}
