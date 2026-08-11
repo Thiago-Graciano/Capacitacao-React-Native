@@ -44,4 +44,5 @@ export const Transacao = styled.Text`
     justify-content: center;
     align-items: center;
     max-height: 29px;
+    max-width: 245px;
 `;
