@@ -21,7 +21,8 @@ export const Balance = styled.Text`
     margin-top: 5px;
     font-size: 30px;
     color: #${props => props.bg};
-    padding: 2px 5px 2px 5px;
+    padding: 2px 5px;
     background-color: #fefefe;
+    border-radius: 4px;
     font-weight: bold;
 `;
