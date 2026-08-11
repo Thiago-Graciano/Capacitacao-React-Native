@@ -7234,3 +7234,33 @@
 {"_e":"metro:bundling:started","_t":1786467650690,"id":"1f","platform":"android","environment":null,"entry":"index.js"}
 {"_e":"metro:bundling:progress","_t":1786467650690,"id":"1f","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1786467650797,"id":"1f","total":1,"ms":106.4303}
+{"_e":"metro:bundling:started","_t":1786467881093,"id":"1g","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467881093,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467881096,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467881233,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467881859,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467881959,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882059,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882160,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882259,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882359,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882461,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882561,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882661,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882761,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882869,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467882995,"id":"1g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467883128,"id":"1g","total":1,"ms":2035.0491}
+{"_e":"metro:client_log","_t":1786467948583,"level":"error","data":["[ReferenceError: Property 'TodayButton' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1786467961214,"level":"error","data":["[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `CalendarModal`.]"]}
+{"_e":"metro:bundling:started","_t":1786468075391,"id":"1l","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786468075391,"id":"1l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786468075488,"id":"1l","total":1,"ms":96.4874}
+{"_e":"metro:bundling:started","_t":1786468109159,"id":"1m","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786468109159,"id":"1m","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786468109246,"id":"1m","total":1,"ms":87.3138}
+{"_e":"root:init","_t":1786472522188,"format":"v0-jsonl","version":"56.1.23"}
+{"_e":"env:mode","_t":1786472522217,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1786472522278,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1786472537591,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1786472553564,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
