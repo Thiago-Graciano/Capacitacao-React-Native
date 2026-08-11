@@ -7231,3 +7231,6 @@
 {"_e":"metro:bundling:started","_t":1786467539758,"id":"1e","platform":"android","environment":null,"entry":"index.js"}
 {"_e":"metro:bundling:progress","_t":1786467539758,"id":"1e","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1786467539841,"id":"1e","total":1,"ms":83.4763}
+{"_e":"metro:bundling:started","_t":1786467650690,"id":"1f","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467650690,"id":"1f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467650797,"id":"1f","total":1,"ms":106.4303}

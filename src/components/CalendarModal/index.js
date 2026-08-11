@@ -4,7 +4,9 @@ import {
     Container,
     ButtonFilterText,
     ModalContent,
-    ButtonFilter
+    ButtonFilter,
+    TodayButton,
+    TodayText
 } from './styles';
 
 import { Calendar, LocaleConfig } from "react-native-calendars";
