@@ -5,11 +5,15 @@ import Home from '../pages/home'
 import New from '../pages/New'
 import Profile from '../pages/Profile'
 
+import CustomDrawer from '../components/CustomDrawer';
+
 const AppDrawer = createDrawerNavigator();
 
 function appRoutes() {
     return(
         <AppDrawer.Navigator
+            drawerContent={ (props) => <CustomDrawer {...props} /> }
+
             screenOptions={{
                 headerShown: false,
 
