@@ -7177,3 +7177,60 @@
 {"_e":"metro:bundling:progress","_t":1786465700624,"id":"12","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:progress","_t":1786465700727,"id":"12","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1786465700871,"id":"12","total":1,"ms":2363.302}
+{"_e":"metro:bundling:started","_t":1786466063272,"id":"13","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786466063272,"id":"13","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786466063359,"id":"13","total":1,"ms":86.6602}
+{"_e":"metro:bundling:started","_t":1786466144865,"id":"15","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786466144865,"id":"15","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786466144949,"id":"15","total":1,"ms":83.3307}
+{"_e":"metro:bundling:started","_t":1786466185989,"id":"16","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786466185989,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786466186072,"id":"16","total":1,"ms":83.3025}
+{"_e":"metro:client_log","_t":1786466586455,"level":"log","data":["2026-08-20T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466648119,"level":"log","data":["2026-08-20T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466648247,"level":"error","data":["[Error: Uncaught (in promise, id: 0): \"ReferenceError: Property 'dateFormated' doesn't exist\"]"]}
+{"_e":"metro:client_log","_t":1786466658813,"level":"log","data":["2026-08-20T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466739670,"level":"log","data":["2026-08-20T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466739779,"level":"error","data":["[Error: Uncaught (in promise, id: 1): \"ReferenceError: Property 'dateFormated' doesn't exist\"]"]}
+{"_e":"metro:client_log","_t":1786466794244,"level":"log","data":["2026-08-20T00:00:00.000Z"]}
+{"_e":"metro:bundling:started","_t":1786466795592,"id":"19","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786466795592,"id":"19","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786466795680,"id":"19","total":1,"ms":87.8346}
+{"_e":"metro:client_log","_t":1786466799604,"level":"log","data":["2026-08-11T16:46:39.008Z"]}
+{"_e":"metro:client_log","_t":1786466817157,"level":"log","data":["2026-08-11T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466825114,"level":"log","data":["2026-08-12T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466827310,"level":"log","data":["2026-08-10T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466849777,"level":"log","data":["2026-08-11T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466855836,"level":"log","data":["2026-08-11T00:00:00.000Z"]}
+{"_e":"metro:bundling:started","_t":1786466859379,"id":"1a","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786466859379,"id":"1a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786466859466,"id":"1a","total":1,"ms":86.7392}
+{"_e":"metro:client_log","_t":1786466863234,"level":"log","data":["2026-08-11T16:47:42.634Z"]}
+{"_e":"metro:client_log","_t":1786466866526,"level":"log","data":["2026-08-10T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466882415,"level":"log","data":["2026-08-12T00:00:00.000Z"]}
+{"_e":"metro:client_log","_t":1786466947311,"level":"log","data":["12/08/2026"]}
+{"_e":"metro:client_log","_t":1786467275884,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467276990,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467277624,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467278188,"level":"log","data":["Erro ao logar ","[AxiosError: Request failed with status code 400]"]}
+{"_e":"metro:client_log","_t":1786467331713,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1786467519664,"id":"1d","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467519664,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467519669,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467519822,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520500,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520600,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520700,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520800,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467520900,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521002,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521107,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521207,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1786467521312,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467521508,"id":"1d","total":1,"ms":1843.2699}
+{"_e":"metro:bundling:started","_t":1786467539758,"id":"1e","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467539758,"id":"1e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467539841,"id":"1e","total":1,"ms":83.4763}
+{"_e":"metro:bundling:started","_t":1786467650690,"id":"1f","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1786467650690,"id":"1f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1786467650797,"id":"1f","total":1,"ms":106.4303}
